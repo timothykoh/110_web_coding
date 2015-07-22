@@ -1,0 +1,118 @@
+html{
+    font-family: Proxima-Nova;
+}
+.hdr{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sub-hdr{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.page-area{
+    width: 50%;
+    height: 700px;
+    display: inline-block;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+}
+.blue-btn{
+    background-color: #2196F3;
+    border: 1px solid #0D47A1;
+    color: white;
+    cursor: pointer;
+}
+.blue-btn:active{
+    background-color: #1976D2;
+}
+.blue-text{
+    color: #2196F3;
+}
+.red-text{
+    color: #F44336;
+}
+.orange-text{
+    color: #FF9800;
+}
+
+
+#code-area{
+    background-color: #f0f0f0;
+    padding: 10px 30px;
+}
+    .code-hdr{
+        display: inline-block;
+    }
+    #feedback-msg{
+        color: #4CAF50;
+        font-size: 15px;
+        margin-left: 10px;
+        opacity: 1;
+        -webkit-transition: opacity 0.5s ease-in-out;
+    }
+    #feedback-msg.hidden{
+        opacity: 0;
+    }
+    #run-btn{
+        padding: 10px 20px;
+        margin-top: 12px;
+        float: right;
+    }
+    #editor{
+        border: 1px solid #c0c0c0;
+    }
+    .code-output-area{
+        background-color: #202020;
+        width: 100%;
+        height: 200px;
+        overflow: scroll;
+        border: 1px solid black;
+        color: white;
+        padding: 15px;
+        -webkit-box-sizing: border-box;
+        font-family: monospace;
+        font-size: 13px;
+    }
+        #code-output{
+            word-wrap: break-word;
+        }
+
+#visual-area{
+    background-color: #e0e0e0;
+    padding: 10px 30px;
+}
+    #list-visual-area{
+        width: 100%;
+    }
+    .list-block{
+        opacity: 1;
+        -webkit-transition: opacity 1s ease-in-out;
+        margin-bottom: 10px;
+    }
+    .list-block.hidden{
+        opacity: 0;
+    }
+        .list-name{
+            display: inline-block;
+            width: 100px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .list-block-item{
+            display: inline-block;
+            background-color: #9C27B0;
+            color: white;
+            padding: 10px 15px;
+            border: 1px solid #4A148C;
+            opacity: 1;
+            -webkit-transition: opacity 1s ease-in-out;
+        }
+        .list-block-item.hidden{
+            opacity: 0;
+            -webkit-transition: opacity 1s ease-in-out;
+        }
+        .list-block-item:last-child{
+            /*border-width: 2px;*/
+        }
